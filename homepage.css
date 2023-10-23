@@ -1,6 +1,29 @@
+    body{
+        margin:0;
+        background-color: #F9EFDD;
+    }
+    .header {
+        background-color: #1E1C1A;
+        height:max-content;
+    }
+ 
+    .navButton {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.3s;
+      }
+      .navButton:hover {
+        background-color: #c2c7c7;
+      }
  /* The curtain (background) */
     .curtain {
-        /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+        /* Height & width depends on how you want to reveal the overlay */   
         height: 0;
         width: 100%;
         position: fixed; /* Stay in place */
