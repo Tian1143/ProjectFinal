@@ -1,11 +1,11 @@
     body{
         margin:0;
-        background-color: #F9EFDD;
+        background-image: url("https://media.istockphoto.com/id/544565400/vector/pets-everywhere.jpg?s=612x612&w=0&k=20&c=1VZdW4A5UMhIp6RRGbtDv0OFhC2SHmGKf3KhIlwB73g=");
     }
     .header {
         background-color: #1E1C1A;
         height:max-content;
-        font-size: 50px;
+        font-size: 80px;
         font-weight: 800;
         line-height:100px;
         display: flex;
@@ -18,15 +18,18 @@
     }
     .icon{
         margin-left: auto !important;
+        margin: 10px;
+        margin-left: 0px;
         color: #f5ebeb;
+        font-size: 30px;
 
 
     }
     .navButton {
         /* display: inline-block; */
-        margin-left: auto !important;
-        margin: 10px;
-        padding: 10px 35px;
+        /* margin-left: auto !important; */
+        /* margin: 10px; */
+        /* padding: 10px 35px; */
         text-decoration: none;
         background-color: rgba(235, 223, 205, 1);
         border-radius:  10% 30% 50% 70%;
@@ -36,9 +39,9 @@
         font-weight: 600;
       }
       .navButton a{
+        color: inherit;
+        color: #070707; 
         text-decoration: none;
-        /* color: inherit; */
-        color: #070707;
       }
       .navButton:hover{
         background-color: rgb(49, 47, 44);
@@ -102,6 +105,26 @@
         top: 15px;
         right: 35px;}
     }
+    /* main page part */
+    .background-images {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        
+    }
     
-
+    .background-images img {
+        position: absolute;
+        object-fit: cover;
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        transition: transform 0.3s;
+    }
+        .background-images img:hover {
+        transform: scale(1.3); /* Increase size on hover */
+        cursor: pointer; /* Change cursor on hover */
+    }
 
