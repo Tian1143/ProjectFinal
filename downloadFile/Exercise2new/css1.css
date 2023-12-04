@@ -1,0 +1,171 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: wrap;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    header{
+        border: 5px solid rgb(0, 0, 0);
+        height: 300px;
+        width:100%;
+        /* margin: 60px; */
+        /* padding-top: 20px; */
+    }
+    .titleP{
+        height:inherit;
+        width:inherit;
+    /* top: 0;
+    position: inherit; */
+    }
+    .title{
+        /* position: absolute;
+        top: 8px;
+        left: 16px; */
+        font-size: 38px;
+        font-weight: 800;
+        text-align: center;
+        margin: 25% ;
+        margin-top: 20px;
+        padding: 10px;
+        color:cornflowerblue;
+        text-shadow: 2px 2px;
+    }
+    .MainP{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin: auto;
+        width:60%;
+    }
+    .MP1{
+        color:rgb(67, 108, 5);
+        background-color: rgb(201, 196, 147);
+        border: 4px solid rgb(117, 215, 117);
+        border-radius: 10%;
+        /* margin-right: 0px; */
+        padding: 30px;
+        margin-top: 80px;
+    }
+    .MP2{
+        color:rgb(5, 93, 108);
+        background-color: rgb(236, 226, 129);
+        border: 4px solid rgb(117, 184, 215);
+        border-radius: 10%;
+        margin-right: 0px;
+        padding: 30px;
+        margin-top: 80px;
+    }
+    .MP3{
+        color:rgb(108, 5, 77);
+        background-color: rgb(136, 209, 121);
+        border: 4px solid rgb(28, 91, 143);
+        border-radius: 10%;
+        margin-right: 0px;
+        padding: 30px;
+        margin-top: 80px;
+    }
+    .happy{
+        background-color: rgb(208, 54, 54);
+        border-radius: 15%;
+        opacity:0.8 ;
+        border: 4px solid yellow;
+        color: rgb(185, 145, 115);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        writing-mode: vertical-rl;
+        
+    }
+    .horse{
+        background-color: rgb(57, 206, 204);
+        border-radius: 15%;
+        opacity:0.8 ;
+        /* border: 4px solid rgb(23, 164, 61); */
+        color: rgb(182, 116, 69);
+        text-decoration:underline double brown;
+    }
+    .fw{
+        background-color: rgb(146, 218, 216);
+        border-radius: 15%;
+        opacity:0.8 ;
+        border: 4px solid rgb(106, 221, 137);
+        color: rgb(218, 34, 34);
+        text-shadow: 2px 2px coral;
+    }
+    .wd{
+        background-color: rgb(146, 218, 216);
+        border-radius: 15%;
+        opacity:0.8 ;
+        /* border: 4px solid rgb(106, 221, 137); */
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        color: rgb(255, 255, 255);
+    }
+    .house{
+        background-color: rgb(143, 136, 179);
+        border-radius: 15%;
+        opacity:0.8 ;
+        border: 4px solid rgb(23, 164, 61);
+        color: rgb(216, 208, 202);
+    }
+    .ani1 {
+        background: linear-gradient(90deg, #1e9c1e, #5a8551, #a82929);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 7s alternate-reverse infinite;
+        -webkit-text-fill-color: rgba(17, 119, 106, 0);
+        -webkit-background-clip:text;
+        background-clip:none;
+
+      }
+      .ani2 {
+        background: linear-gradient(90deg, #0d490d, #b8440f, #200d64);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 12s alternate-reverse infinite;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: rgba(17, 119, 106, 0);
+        background-clip:none;
+      }
+      .ani3 {
+        background: linear-gradient(90deg, #a5d6a5, #b8440f, #a01040);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 8s alternate-reverse infinite;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: rgba(17, 119, 106, 0);
+        background-clip:none;
+
+      }
+      @keyframes animate {
+        0% {
+          background-position: -400%;
+        }
+        100% {
+          background-position: 400%;
+        }
+      }
+      .glow {
+        animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
+        text-shadow: 0 0 3vw #f4bd0a;
+      }
+      @keyframes glow {
+        0%,
+        100% {
+          text-shadow: 0 0 1vw #f6fa16, 0 0 3vw #f6fa16, 0 0 10vw #f6fa16, 0 0 10vw #FA1C16, 0 0 .4vw #fed028a0, .5vw .5vw .1vw #806914;
+          color: #FED128;
+        }
+        50% {
+          text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+          color: #806914;
+        }
+      }
+      .firewood{
+        position: absolute;
+        left:0;
+      }
+      .firewood2{
+        position: absolute;
+        right:0;
+      }

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.part1{
+    max-width:50%;
+    height: 800px;
+    margin: auto;
+
+}
+.part2{
+    max-width:50%;
+    height: 800px;
+    margin: auto;
+}
+.Exercise1,.Exercise2{
+    background-color:lemonchiffon;
+    width: 800px;
+    height: 700px;
+}
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    color: rgba(235, 223, 205, 1);
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; 
+}

@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tian's studio</title>
+	<meta name="Keywords" content="HTML, CSS, JAVA">
+	<meta name="author" content="Tian">
+	<meta name="robots" content="noidex, nofollow">
+	<title>Tian's studio</title>
     <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
         /* Open burger bar*/
@@ -34,56 +39,74 @@
         "Exercise page.html",
         "artwork page.html"
         ];
-         for (let i = 0; i < numImages; i++) {
-            const img = document.createElement('img');
-            img.src = imageSources[i];
+        for (let i = 0; i < numImages; i++) {
+        const img = document.createElement('img');
+        img.src = imageSources[i];
 
-            const containerWidth = container.clientWidth - 300; 
-            const containerHeight = container.clientHeight - 300; 
+        const containerWidth = container.clientWidth - 300;
+        const containerHeight = container.clientHeight - 300;
 
-            img.style.left = `${Math.random() * containerWidth}px`;
-            img.style.top = `${Math.random() * containerHeight}px`;
+        img.style.left = `${Math.random() * containerWidth}px`;
+        img.style.top = `${Math.random() * containerHeight}px`;
 
-            img.title = "Click to go to " + pageNames[i];
-            
-            const link = document.createElement('a');
-            link.href = pageNames[i];;
-            link.appendChild(img);
+        img.title = "Click to go to " + pageNames[i];
 
-            container.appendChild(link);            
-        }    
+        const link = document.createElement('a');
+        link.href = pageNames[i];
+        link.appendChild(img);
+
+        container.appendChild(link);
+    }
+// move image
+    const images = document.querySelectorAll('.background-images img');
+
+    const movementAreaWidth = 600; // Width of the movement area (in pixels)
+    const movementAreaHeight = 600; // Height of the movement area (in pixels)
+
+    function moveImages() {
+        images.forEach(img => {
+            const randomX = Math.random() * (movementAreaWidth - img.clientWidth);
+            const randomY = Math.random() * (movementAreaHeight - img.clientHeight);
+            img.style.transform = `translate(${randomX}px, ${randomY}px)`;
         });
-        </script>
+    }
+
+    setInterval(moveImages, 1000); 
+    });
+</script>
 </head>
 <body>
-    <header class="header" >
-        <span class="navWord">Tian Jin</span>
+	<div class="container-fluid">
+	<header class="header">
+        <div class="navWord">Tian Jin</div>
+
+        <button class="navButton2" onClick="history.go(0);">Refresh!</button>
     <!--Navigatin bar  -->
             <!-- burger bar icon -->
             <a href="javascript:void(0);" class="icon" onclick="openNav()">
-            <i class="fa fa-bars"></i>
-            </a>
-            <!-- Word -->
-        <!--Home Button  -->
-        <!-- <button type="button" class="navButton"><a href="home page.html">Home</a></button>     -->
-        <!--inside curtain bar  -->
-    <div id="myNav" class="curtain">
-        <!-- curtain content -->
-            <!-- Button to close the curtain navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="curtain-content">
-            <ul>
-            <li><a href="resume page.html"><span>About me</span></a></li>
-            <li><a href="Weekly page.html"><span>Weeklies</span></a></li>
-            <li><a href="Exercise page.html"><span>Exercises</span></a></li>
-            <li><a href="artwork page.html"><span>Artworks</span></a></li>
-            </ul>
-        </div>
-    </div>
-    </header>    
+                <i class="fa fa-bars"></i>
+                </a>
+        <!--Navigatin bar  -->
+            <!-- burger bar icon -->
+            <div id="myNav" class="curtain">
+                <!-- curtain content -->
+                    <!-- Button to close the curtain navigation -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="curtain-content">
+                    <ul>
+                        <li><a href="resume page.html"><span>About me</span></a></li>
+                        <li><a href="Weekly page.html"><span>Weeklies</span></a></li>
+                        <li><a href="Exercise page.html"><span>Exercises</span></a></li>
+                        <li><a href="artwork page.html"><span>Artworks</span></a></li>
+                        </ul>
+                </div>
+            </div>
+                
+	</header>    
     <!-- main page part -->
     <div class="background-images">
-
-    </div>
+	</div>
+ </div>     
+   
 </body>
 </html>

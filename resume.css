@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainPage {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+.resumeBack{
+    max-width: 100%;
+    height: 100%;
+}
+.mainPageText1 {
+    position: absolute; 
+    top: 25%;
+    left: 10%; 
+    font-size: 50px;
+  }
+.mainPageText2 {
+    position: absolute; 
+    top: 35%;
+    left: 10%; 
+    font-size: 80px;
+  }
+.mainPageText3 {
+    position: absolute; 
+    top: 55%;
+    left: 10%; 
+    font-size: 50px;
+  }
+.mainPageText4 {
+    position: absolute; 
+    top: 65%;
+    left: 10%; 
+    font-size: 50px;
+    /* background-color: rgba(235, 223, 205, 1); */
+    border-radius: 20%;
+    outline: none;
+    transition: 0.3s;
+    font-size: 50px;
+    font-weight: 600;
+  }
+.mainPageText4 a{
+    text-decoration: none;
+    font-family: monospace;
+    color:#8D894F;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; 
+
+}  
+.left{
+    /* border: 5px solid red; */
+    width: 60%;
+    float: left;
+    position: relative;
+
+}
+.contact{
+    margin-top: 50px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.contactTitle{
+    font-size: 80px;
+    color:#8D894F;
+    margin-left: 10%;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; 
+}
+.contactLeft{
+    /* border: 5px solid red; */
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+
+}
+.contactText{
+    /* border: 5px solid black; */
+    width: 50%;
+    position: absolute;
+    bottom: 30%;
+    left: 52%;
+    font-size: 45px;
+    background-color:wheat;
+
+}
+.right{
+    /* border: 5px solid black; */
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+}
+.contactRight{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    /* border-radius: 50%; */
+    /* border: 5px solid #474306; */
+    object-fit: cover;
+    clip-path: circle(40%);
+}
+
+
+
+
+
+
+
+
+
+
+/* position: absolute;
+left: 0%;
+right: 2.57%;
+top: 3.14%;
+bottom: 0%; */
+

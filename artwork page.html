@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tian's studio Artworks</title>
     <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="artwork.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
@@ -17,12 +20,39 @@
             function closeNav() {
             document.getElementById("myNav").style.height = "0%";
             }
+            let slideIndex = 1;
 
-    </script>
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let i;
+    const slides = document.getElementsByClassName("slide");
+
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+}
+// Initial slide display
+document.addEventListener("DOMContentLoaded", function () {
+  showSlides(slideIndex);
+});
+</script>
 </head>
 <body>
     <header class="header" >
-        <span class="navWord">Artworks</span>
+        <span class="navWord">Tian's Artworks</span>
     <!--Navigatin bar  -->
             <!-- burger bar icon -->
             <a href="javascript:void(0);" class="icon" onclick="openNav()">
@@ -34,7 +64,7 @@
     <div id="myNav" class="curtain">
         <!-- curtain content -->
             <!-- Button to close the curtain navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
         <div class="curtain-content">
             <ul>
                 <li><a href="resume page.html"><span>About me</span></a></li>
@@ -46,112 +76,115 @@
     </div>
     </header>
     <!--main page -->
-    <div class="grid image-grid">
-    <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+    <div class="slideshow-container">
+      <div class="grid image-grid">
+    <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Charcoal Sep,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0246.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0246.JPG" alt="Image">
           </a>
         </div>
+        <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Charcoal Sep,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0300.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0300.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Pastel Oct,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0308.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0308.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Pastel Oct,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0323.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0323.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Other 2022</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_8640.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_8640.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Other 2022</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_8727.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_8727.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Pencil 2022</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_8783.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_8783.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Pencil 2022</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_8787.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_8787.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Digital Poster 2022</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/original-230B5E7C-12C7-40CC-AE42-A30E58669A5C.jpeg">
             <img class="tile-img tile-img1" src="images/artworks/original-230B5E7C-12C7-40CC-AE42-A30E58669A5C.jpeg" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Charcoal Sep,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0186.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0186.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Charcoal Sep,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0302.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0302.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Charcoal Sep,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0310.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0310.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Pastel Dec,2023</p> 
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_0625.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_0625.JPG" alt="Image">
           </a>
-        </div>
+        </div> <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Plastic Material 2022</p>
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_8778.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_8778.JPG" alt="Image">
           </a>
-        </div>     
+        </div>  <a class="next" onclick="plusSlides(1)">❯</a>    
       </div>
-      <div class="grid-block">
-        <div class="tile">
-          <a class="tile-link" href="#">
+      <div class="grid-block slide"><a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="tile"><p class="intro">Charcoal Sep,2023</p>
+          <a target="_blank" class="tile-link" href="images/artworks/IMG_E0177.JPG">
             <img class="tile-img tile-img1" src="images/artworks/IMG_E0177.JPG" alt="Image">
           </a>
-        </div>     
+        </div>  <a class="next" onclick="plusSlides(1)">❯</a>    
       </div>
     </div>
+  </div>
 </body>
 </html>

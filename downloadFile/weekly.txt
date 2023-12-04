@@ -1,0 +1,68 @@
+Tian Jin Weekly0901
+Reflections on this week
+During the first couple weeks, I found that using html to build my own webpage is pretty interesting. I've found that taking the approach of learning HTML and CSS separately rather than trying to absorb all the things at once is a strategy that not only enhances my understanding but also keeps the learning process from becoming overwhelming. I think I will practice more regularly in my spare time. I am still not getting into Github about how it works and what we can do in Github. I will explore Github more as time goes by.
+
+For the discussions, I choose interface as my discussion topic. Interfaces are everywhere in our digital world, from the user interfaces of mobile apps to the interfaces of everyday devices and appliances. I think it will be fun to read some articles about that and make a whole powerpoint with my classmates.
+
+Life Beyond this Class
+Beyond this class, I like playing video games and reading novels. I like reading romantic and horror novels, it is kinda a way for me to release pressure. Currently I am playing a PC game called The Long dark which is a RPG game about a lonely man surviving in a wild space. I also work in school as a research assistant researching how video games affect people in multiple ways. Taking this class is because my major focuses on user experience and human computer interface. So the coding information would be an efficient tool for me when I am thinking how to improve user experience in some specific interfaces.
+
+Tian Jin / Art3001/ 09/01/2023
+
+Tian Jin Weekly0908
+Reflections on this week
+During this week, we have continued to study how to use HTML to create a website and learn how to combine HTML and CSS to make our website look better. I get to know how to bold or underline a text and I can combine this with multiple syntaxes like adding a link or something. Also, exercises are a great way for me to review what I have learned this week. If I face some problems, I will try to find a solution in my index file or google it. My exercise1 is about a dream I had in my childhood. I made it more like a small horror novel. You have multiple options to different ends.
+
+This week's discussion topic is the world wide web. I think it is quite a big topic. People now can connect with others all over the world with the help of computers and the Internet. The online community is a space that people can enter without limitations. People can freely speak their opinions and ideas to everyone. In my personal opinion, having a place where people can speak whatever they can say is cool, but it must have regulations that the content will not disturb social stability.
+
+Life Beyond this Class
+In general, I had a great time this week, things got back on track and I went to Cleveland with my friends for a short trip. We went to the art museum, enjoyed some delicious food, and lakeshore to see the sunset.
+
+Tian Jin / Art3001/ 09/09/2023
+
+Tian Jin Weekly0917
+Reflections on this week
+Throughout this week, our focus has been on delving deeper into the world of CSS, exploring various methods to employ it efficiently within our web development projects. I think having a separate CSS file and having CSS code inside my HTML are both easy ways to use. It just depends on different situations. Like if you have reference CSS files from Bootstrap or other websites, it's easier to have CSS inside your HTML file. Admittedly, the multitude of options can be confusing. I will get lost when picking which way is the best way to write the code. Personally, I plan to invest more time exploring resources like W3Schools and conducting Google searches to discern the most optimal solutions for different situations.
+
+In my upcoming exercise, I plan to find a poem online to do my exercise. I have not decided which poem yet, but I think separating the poem into different blocks with multiple colors, fonts, images, and backgrounds would be interesting and appealing. Mouse-over effects sound nice, but I have never tried that before. I will google it to see if there are any beautiful effects I can use to make my poem look better. Additionally, I aim to incorporate dynamic text effects to add an extra layer of engagement to the content.
+
+Life Beyond this Class
+In general, this week I am doing well. This job involves recruiting participants for interviews, and while only three individuals met the criteria, I maintain a positive outlook and am determined to meet the challenge head-on.
+
+Tian Jin / Art3001/ 09/17/2023
+
+Tian Jin Weekly0922
+Reflections on this week
+Throughout this week, we have continued studying CSS and ways to make our webpage look better. I am more familiar with using margins and padding to make my website look more comfortable. Having reviews about what we have learned is a good way to make you remember things better and make sure you do not miss things.
+
+In my exercise, I chose a poem called Facing the Sea, with Spring Blossom by HaiZi, who is a Chinese poet. I try to use keyframes to add anime effects and it looks good. I also try to add some GIFs in the background to make the background less tedious. I also made changes to the texts and aligned them in the right position. If I have more time, I will add some links to some specific words, and maybe have a different version of the poem.
+
+Finally, I have finished the discussion, my topic is big and general, which is about UX and warfare. For me, I think war is a serious thing. People can not combine War with other filters or make it more like a game. It is true that soldiers will have little stress. But no matter what the victims look like, they are still human.
+
+Life Beyond this Class
+This week I am doing great. I have a lot of work to do, it keeps me busy but also makes me think I am learning something. I think I will stay positive and keep going and be better.
+
+Tian Jin / Art3001/ 09/22/2023
+
+Tian Jin Weekly1008
+Reflections on this week
+Throughout this week, we have started thinking about how to make our own personal websites. I do not have a solid idea yet. But I have already found some websites that I am interested in and thinking of combining those websites with my own ideas. I chose to use Figma to generate my first framework. I like to have a pdf version at version when I am doing some big projects. That way I will not be confused when I am writing codes. For now, I think I do not want my website to have too much unnecessary stuff, I want to make it simple but great to look at. I want to make it more like a professional portfolio webpage, with a main home page and some sub-pages. Also, this week we have learned some ways to make our navigation bar look better. I will definitely try that way in my project 1.
+
+Our discussion today is about identities. I think the Internet is not good to have communities for a specific identity. It is because when you have a space for some specific people, it is not fair for other people online. They do not have access to this community at first.
+
+Life Beyond this Class
+This week I am doing great. I am starting to apply to some graduate programs now. Most programs are about user experience. I need to finish my personal statement as soon as possible to make sure I will not miss the application deadline.
+
+Tian Jin / Art3001/ 10/08/2023
+
+Tian Jin Weekly1021
+
+Reflections on this week
+Throughout this week, we are starting to work on Project1 now. I have already started to make my home page, the first step I am going to do is set my navigation bar, since I want to have a curtain menu effect, I need to use JAVA to make that. I googled how to use JAVA and CSS together to have a curtain menu, and it worked! My next step is to make my home page have a basic shape first, then I will have draft subwebpages next. I think I will spend more time letting my subpage have a similar style to the home page. I do not want subpages like the weekly and Exercise is just a page that contains basic work information. Having a whole draft first and focusing on details next would be a better choice for me to be efficient.
+Also, this week we have studied more ways to make our page more dynamic with the use of pictures and other moves. I have more sense of how to combine CSS and HTML code together to make my website look more interesting. Definitely gonna spend more time after class to practice my skills.
+
+Life Beyond this Class
+In addition to my progress on Project 1, I have been occupied with refining my resume to align with the requirements of various graduate programs. Simultaneously, I am in the process of crafting persuasive personal statements, aiming to effectively communicate my aspirations and qualifications to the respective admission committees. As the week concludes, I am motivated by the strides I have made and the prospects that lie ahead.
+
+
+Tian Jin / Art3001/ 10/21/2023

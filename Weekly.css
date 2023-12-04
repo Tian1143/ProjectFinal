@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+}
+.card {
+  border: 10px solid black;
+  display:inline-block;
+  /* position: relative; */
+  max-width:33%;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(rgb(223, 195, 162),rgb(206, 153, 120));
+  transition:1s;
+  font-family: 'Pacifico', cursive;  
+  box-shadow:0 0 60px 30px #e9e9de,
+  0 0 100px 60px rgb(207, 193, 165),
+  0 0 140px 90px rgb(213, 214, 155);
+  transform:
+  scale(0.6)
+  rotateY(-30deg)
+  rotateX(45deg)
+  translateZ(4.5rem);
+  transform-origin: 40% 40%;
+  transition: 0.6s ease transform;
+}
+.card:hover{
+  transform: rotatex(0deg);
+  transform: rotatez(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+h3{
+  font-size:25px;
+  color:rgb(255,255,255);
+  text-shadow: 0 0 2px rgb(255,255,255);
+  transform: translatey(10px);
+  text-align:center;
+}
+
+p{
+  color: white;
+  width:90%;
+  margin: auto;
+}
+
+
