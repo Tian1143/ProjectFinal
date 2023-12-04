@@ -10,7 +10,7 @@
     transform-origin: center; /* Set the rotation origin to the center */
 }
 .intro{
-    font-size: 200px;
+    font-size: 150px;
     color: aliceblue;
 }
 .grid-block {
@@ -21,7 +21,7 @@
 }
 
 .tile-img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin: auto;
