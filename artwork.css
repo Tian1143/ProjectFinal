@@ -4,25 +4,25 @@
     box-sizing: border-box;
 }
 .grid {
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;
     /* flex-wrap: wrap; */
     transform-origin: center; /* Set the rotation origin to the center */
 }
 .intro{
-    font-size: 150px;
+    font-size: 100px;
     color: aliceblue;
 }
 .grid-block {
-    width: 80%; 
+    width: inherit; 
     margin: auto;
     box-sizing: border-box;
     transform: rotate(-10deg); 
 }
 
 .tile-img {
-    max-width: 90%;
-    height: auto;
+    width: inherit;
+    height: 3000px;
     display: block;
     margin: auto;
     transition: transform 0.5s ease;
