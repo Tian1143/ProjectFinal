@@ -21,7 +21,6 @@
 }
 
 .tile-img {
-    width: inherit;
     display: block;
     margin: auto;
     transition: transform 0.5s ease;
